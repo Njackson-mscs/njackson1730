@@ -19,21 +19,30 @@ namespace njackson1c
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            txtHotDogsSubtotal.Text = (
-                4.0m * Convert.ToDecimal(txtHotDogs.Text)
-                ).ToString("0.00")
-                ;
+            //txtHotDogsSubtotal.Text = (
+            //    4.0m * Convert.ToInt32(txtHotDogs.Text)
+            //    ).ToString("0.00")
+            //    ;
+            int hotdogs = Convert.ToInt32(txtHotDogs.Text); // get user input
+            decimal hdprice = 4.0m; // M uses it as a literal variable
+            decimal hdsubtotal = hotdogs * hdprice; //how to calculate
+            txtHotDogsSubtotal.Text = hdsubtotal.ToString("0.00"); //displayed calc            
 
-            txtHamburgersSubtotal.Text = (
-                5.0m * Convert.ToDecimal(txtHamburgers.Text)
-                ).ToString("0.00")
-                ;
+            //txtHamburgersSubtotal.Text = (
+            //    5.0m * Convert.ToInt32(txtHamburgers.Text)
+            //    ).ToString("0.00")
+            //    ;
+            int hamburgers = Convert.ToInt32(txtHamburgers.Text);
+            decimal hamprice = 5.0m;
+            decimal hamsubtotal = hamburgers * hamprice;
+            txtHamburgersSubtotal.Text = hamsubtotal.ToString("0.00m");
 
-
-            txtPretaxTotal.Text = (
-                Convert.ToDecimal(txtHotDogsSubtotal.Text)
-                + Convert.ToDecimal(txtHamburgersSubtotal.Text)).ToString("0.00")
-                ;
+            //txtPretaxTotal.Text = (
+            //    Convert.ToDecimal(txtHotDogsSubtotal.Text)
+            //    + Convert.ToDecimal(txtHamburgersSubtotal.Text)).ToString("0.00")
+            //    ;
+            decimal PretaxTotal = hamsubtotal + hdsubtotal;
+            txtPretaxTotal.Text = PretaxTotal.ToString("0.00");
 
             
             const decimal Tax = 0.06875m;   ///Tax that will be applied to purchase
@@ -64,6 +73,11 @@ namespace njackson1c
             txtTotal.Text = "";
 
             txtHotDogs.Focus();
+        }
+
+        private void frmFoodTruck_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

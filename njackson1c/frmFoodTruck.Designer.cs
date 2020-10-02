@@ -197,6 +197,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.Location = new System.Drawing.Point(219, 232);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
@@ -232,6 +233,7 @@
             this.Name = "frmFoodTruck";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "njackson1c1: Food Truck";
+            this.Load += new System.EventHandler(this.frmFoodTruck_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
