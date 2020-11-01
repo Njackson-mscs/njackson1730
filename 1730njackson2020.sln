@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "njackson 2C", "njackson 2C\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "njackson 2D", "njackson2D\njackson 2D.csproj", "{7514CE3E-2DC4-4751-9042-0838155DEE0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "njackson 2E", "NJackson 2E\njackson 2E.csproj", "{5D2EBED2-9D9C-49C5-BD65-F6337CDBE760}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "njackson 2E Unit_Tests", "njackson2e_unitTests\njackson 2E Unit_Tests.csproj", "{75779F7E-3045-4701-9176-98D96BF340D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{7514CE3E-2DC4-4751-9042-0838155DEE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7514CE3E-2DC4-4751-9042-0838155DEE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7514CE3E-2DC4-4751-9042-0838155DEE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2EBED2-9D9C-49C5-BD65-F6337CDBE760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2EBED2-9D9C-49C5-BD65-F6337CDBE760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2EBED2-9D9C-49C5-BD65-F6337CDBE760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2EBED2-9D9C-49C5-BD65-F6337CDBE760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75779F7E-3045-4701-9176-98D96BF340D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75779F7E-3045-4701-9176-98D96BF340D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75779F7E-3045-4701-9176-98D96BF340D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75779F7E-3045-4701-9176-98D96BF340D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
