@@ -1,0 +1,78 @@
+﻿<Window x:Class="njackson_3A.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:njackson_3A"
+        mc:Ignorable="d"
+        Title="njackson3a loops" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="300" Margin="42,38,0,0" VerticalAlignment="Top" Width="536">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Label Content="1) p149 While, counter" HorizontalAlignment="Left" VerticalAlignment="Center" Height="24"/>
+            <TextBox x:Name="Input0A" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Column="1" SpellCheck.IsEnabled="True" Text="24"/>
+            <TextBox x:Name="Input0B" Grid.Column="2" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Text="100.00"/>
+            <TextBox x:Name="Input0C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Text="0.005"/>
+            <TextBox x:Name="Result0" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="149" SpellCheck.IsEnabled="True" Margin="4,2,0,4"/>
+            <Label Content="2) p149 While, counter" HorizontalAlignment="Left" VerticalAlignment="Center" Height="24" Grid.Row="1"/>
+            <TextBox x:Name="Input1A" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Column="1" SpellCheck.IsEnabled="True" Grid.Row="1" Text="24"/>
+            <TextBox x:Name="Input1B" Grid.Column="2" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="1" Text="100.00"/>
+            <TextBox x:Name="Input1C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="1" Text="0.005"/>
+            <TextBox x:Name="Result1" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="149" SpellCheck.IsEnabled="True" Margin="4,2,0,4" Grid.Row="1"/>
+            <Label Content="3) p151 for loop&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Center" Height="24" Grid.Row="2" AutomationProperties.Name="pg 151"/>
+            <TextBox x:Name="Input2A" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Column="1" SpellCheck.IsEnabled="True" Grid.Row="2" Text="24"/>
+            <TextBox x:Name="Input2B" Grid.Column="2" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="2" Text="100.00"/>
+            <TextBox x:Name="Input2C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="2" Text="0.005"/>
+            <TextBox x:Name="Result2" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="149" SpellCheck.IsEnabled="True" Margin="4,2,0,4" Grid.Row="2"/>
+            <Label Content="4) Count, While&#xA;" HorizontalAlignment="Left" VerticalAlignment="Center" Height="24" Grid.Row="3" AutomationProperties.Name="pg 151"/>
+            <TextBox x:Name="Input3A" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Column="1" SpellCheck.IsEnabled="True" Grid.Row="3" Text="2"/>
+            <TextBox x:Name="Input3B" Grid.Column="2" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="3" Text="12"/>
+            <TextBox x:Name="Input3C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="3" Text="3"/>
+            <TextBox x:Name="Result3" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="149" SpellCheck.IsEnabled="True" Margin="4,2,0,4" Grid.Row="3"/>
+            <Label Content="5) Count, Do while" HorizontalAlignment="Left" VerticalAlignment="Center" Height="24" Grid.Row="4" AutomationProperties.Name="pg 151"/>
+            <TextBox x:Name="Input4A" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Column="1" SpellCheck.IsEnabled="True" Grid.Row="4" Text="2"/>
+            <TextBox x:Name="Input4B" Grid.Column="2" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="4" Text="12"/>
+            <TextBox x:Name="Input4C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="4" Text="3"/>
+            <TextBox x:Name="Result4" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="149" SpellCheck.IsEnabled="True" Margin="4,2,0,4" Grid.Row="4"/>
+            <Label Content="6) Count, for&#xA;" HorizontalAlignment="Left" VerticalAlignment="Center" Height="24" Grid.Row="5" AutomationProperties.Name="pg 151"/>
+            <TextBox x:Name="Input5A" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Column="1" SpellCheck.IsEnabled="True" Grid.Row="5" Text="2"/>
+            <TextBox x:Name="Input5B" Grid.Column="2" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="5" Text="12"/>
+            <TextBox x:Name="Input5C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="5" Text="3"/>
+            <TextBox x:Name="Result5" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="149" SpellCheck.IsEnabled="True" Margin="4,2,0,4" Grid.Row="5"/>
+            <Label Content="7) sum while&#xA;" HorizontalAlignment="Left" VerticalAlignment="Center" Height="24" Grid.Row="6" AutomationProperties.Name="pg 151"/>
+            <TextBox x:Name="Input6A" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="150" Grid.Column="1" SpellCheck.IsEnabled="True" Grid.Row="6" Text="22 14 5 47 12 " Grid.ColumnSpan="2"/>
+            <TextBox x:Name="Input6B" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="6" Text="5"/>
+            <TextBox x:Name="Result6" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="149" SpellCheck.IsEnabled="True" Margin="4,2,0,4" Grid.Row="6"/>
+            <Label Content="8) sum, do-while&#xA;" HorizontalAlignment="Left" VerticalAlignment="Center" Height="24" Grid.Row="7" AutomationProperties.Name="pg 151"/>
+            <TextBox x:Name="Input7A" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="150" Grid.Column="1" SpellCheck.IsEnabled="True" Grid.Row="7" Text="22 14 5 47 12 " Grid.ColumnSpan="2"/>
+            <TextBox x:Name="Input7B" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="7" Text="5"/>
+            <TextBox x:Name="Result7" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="149" SpellCheck.IsEnabled="True" Margin="4,1,0,5" Grid.Row="7"/>
+            <Label Content="9) sum, for&#xA;" HorizontalAlignment="Left" VerticalAlignment="Center" Height="24" Grid.Row="8" AutomationProperties.Name="pg 151"/>
+            <TextBox x:Name="Input8A" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="150" Grid.Column="1" SpellCheck.IsEnabled="True" Grid.Row="8" Text="22 14 5 47 12 " Grid.ColumnSpan="2"/>
+            <TextBox x:Name="Input8B" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" SpellCheck.IsEnabled="True" Grid.Row="8" Text="5"/>
+            <TextBox x:Name="Result8" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="149" SpellCheck.IsEnabled="True" Margin="4,2,0,4" Grid.Row="8"/>
+            <Button x:Name="calcButton" Content="Calculate" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="9" VerticalAlignment="Center" Width="75" Click="calcButton_Click"/>
+
+        </Grid>
+        <Slider HorizontalAlignment="Left" Margin="758,355,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
